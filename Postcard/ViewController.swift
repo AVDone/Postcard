@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 AVDone. All rights reserved.
 //
 
+// This is just an addtional comment to test additional git commits
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -28,7 +30,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
-        // Adding a Comment here to test commits
         
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
